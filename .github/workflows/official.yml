@@ -26,7 +26,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: master
   OPHUB_URL: https://github.com/ophub/amlogic-s9xxx-openwrt
-  REPO_BRANCH: main
+  OPHUB_BRANCH: main
   FEEDS_CONF: router-config/openwrt-master/feeds.conf.default
   CONFIG_FILE: router-config/openwrt-master/.config
   DIY_P1_SH: router-config/openwrt-master/diy-part1.sh

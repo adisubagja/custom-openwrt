@@ -25,7 +25,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   OPHUB_URL: https://github.com/ophub/amlogic-s9xxx-openwrt
-  REPO_BRANCH: main
+  OPHUB_BRANCH: main
   FEEDS_CONF: router-config/lede-master/feeds.conf.default
   CONFIG_FILE: router-config/lede-master/.config
   DIY_P1_SH: router-config/lede-master/diy-part1.sh
