@@ -3,6 +3,7 @@
 # List Supported OpenWRT
 - Lede OpenWRT
 - Official OpenWRT
+- More ? Soon (Need some testing before)
 
 # For Amlogic S905X Only (HG680P / B860H)
 
