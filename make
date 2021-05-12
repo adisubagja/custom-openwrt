@@ -13,13 +13,13 @@ build_openwrt=("s905x3" "s905x2" "s905x" "s905d" "s912" "s922x")
 make_path=${PWD}
 tmp_path=${make_path}/tmp
 out_path=${make_path}/out
-openwrt_path=${make_path}/openwrt-armvirt
-amlogic_path=${make_path}/amlogic-s9xxx
-kernel_path=${amlogic_path}/amlogic-kernel
-armbian_path=${amlogic_path}/amlogic-armbian
-uboot_path=${amlogic_path}/amlogic-u-boot
-installfiles_path=${amlogic_path}/install-program/files
-configfiles_path=${amlogic_path}/common-files
+openwrt_path=${make_path}ophub/openwrt-armvirt
+amlogic_path=${make_path}ophub/amlogic-s9xxx
+kernel_path=${amlogic_path}ophub/amlogic-kernel
+armbian_path=${amlogic_path}ophub/amlogic-armbian
+uboot_path=${amlogic_path}ophub/amlogic-u-boot
+installfiles_path=${amlogic_path}ophub/install-program/files
+configfiles_path=${amlogic_path}ophub/common-files
 #===== Do not modify the following parameter settings, End =======
 
 # Set firmware size ( BOOT_MB size >= 128, ROOT_MB size >= 320 )
