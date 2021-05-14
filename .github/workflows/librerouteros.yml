@@ -62,7 +62,7 @@ jobs:
       working-directory: /workdir
       run: |
         df -hT $PWD
-        git clone https://github.com/ophub/amlogic-s9xxx-openwrt
+        git clone https://github.com/ophub/amlogic-s9xxx-openwrt ophub
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH librerouteros
         ln -sf /workdir/librerouteros $GITHUB_WORKSPACE/librerouteros
 
